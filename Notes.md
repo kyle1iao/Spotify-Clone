@@ -1,6 +1,8 @@
 # Notes
 
-This is a running document of notes taken during the creation of this React project.
+Current place in [video](https://www.youtube.com/watch?v=2aeMRB8LL4o): 24:10
+
+This is a running document of notes taken during the creation of this React project. This project is adapted from the video above.
 
 **"How does `SidebarItem` inherit icons?"** <br>
 `SidebarItem` is a functional component that receives props based on the interface `SidebarItemProps`. It returns a JSX element that represents a single sidebar item. We need to specify the type of Icon in the interface so that we can render the Icon in the return statement. In `Sidebar.tsx`, the `map` function iterates over the `routes` array and renders `SidebarItem` components based on the data provided.
