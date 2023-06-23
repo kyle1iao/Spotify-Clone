@@ -13,3 +13,6 @@ In `SidebarItem.tsx`, `routes` holds the result of invoking the `useMemo` hook, 
 
 **"What is `usePathname`?"** <br>
 The pathname variable represents the current path or URL pathname of the page. It provides information about the current route or location within your application. In Next.js, the usePathname hook is specifically designed for retrieving the current pathname within a component. By invoking `usePathname()`, the pathname variable will be assigned the current pathname value. It is then used within the useMemo hook to compute and memoize the routes array based on the value of pathname.
+
+**"What is `twMerge`?"** <br>
+`twMerge` is a custom utility imported from `tailwind-merge` that lets us merge multiple Tailwind CSS classes or class strings together. Tailwind CSS provides pre-built CSS classes to style web apps. It follows a utility-first approach where we can apply small, single-purpose utility classes directly in HTML markup to style elements.
