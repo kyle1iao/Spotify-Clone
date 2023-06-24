@@ -19,8 +19,8 @@ export default function RootLayout({
       <body className={font.className}>
         <Sidebar>
           {children}
-          </Sidebar>
-        </body>
+        </Sidebar>
+      </body>
     </html>
   )
 }
