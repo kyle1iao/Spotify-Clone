@@ -1,6 +1,6 @@
 # Notes
 
-Current place in [video](https://www.youtube.com/watch?v=2aeMRB8LL4o): 3:05
+Current place in [video](https://www.youtube.com/watch?v=2aeMRB8LL4o): 4:03
 
 This is a running document of notes taken during the creation of this React project. This project is adapted from the video above.
 
